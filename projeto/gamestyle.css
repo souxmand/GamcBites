@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .jogo {
   text-align: center;
   background-color: #f9bc02;
@@ -130,3 +131,128 @@ button {
   color: #fff;
   background-color: #f9bc02;
 }
+=======
+
+.jogo{
+    text-align: center;
+    background-color:#f9bc02;
+    margin: 20%;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    text-align: center;
+    background-color: #8701b0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #8701b0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #cc07cf44;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9bc02;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+
+section {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 100px;
+    /* Adiciona espaço na parte superior para evitar que o conteúdo fique atrás da barra de navegação */
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #8701b0;
+    color: #f9bc02;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+#logo {
+    float: left;
+    width: 300px;
+}
+
+.insta {
+    float: right;
+    width: 60px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*pong*/
+canvas {
+    display: block;
+    background-color:#f9bc02;
+}
+
+
+/*memoria*/
+
+
+.card {
+    color:#02f996;
+    font-size: 30px;
+    width: 200px;
+    height: 250px;
+    background-image: url('imagens/Design\ sem\ nome\ \(1\).png');
+    border: 2px solid #000;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+/*numero*/
+h1 {
+    color:#f9bc02;
+    margin-top: 30%;
+    /* Oculta o h1 quando a página rola para cima */
+}
+
+p {
+    color: #fff;
+}
+
+button {
+    color: #fff;
+    background-color:#f9bc02;
+}
+>>>>>>> 008f1d8432de683731070f1e6a1f7fbfa741e552
