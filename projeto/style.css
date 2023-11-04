@@ -1,0 +1,115 @@
+/* Estilos gerais */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #cc07cf44;
+  background-image: url(imagens/bg/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Estilos do cabeçalho */
+header {
+  height: 125px; /* Ajuste a altura conforme necessário */
+  background-color: #8701b0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* Estilos do logotipo */
+#logo {
+  float: left;
+  width: 300px;
+}
+
+/* Estilos da navegação, parte dos links*/
+#navbar {
+  background-color: #cc07cf44;
+}
+
+nav {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f9bc02;
+  font-size: 2rem;
+  padding: 0.5rem 2rem; /* Ajuste o preenchimento conforme necessário */
+  position: relative;
+}
+nav a::after {
+  /*barrinha que aparece embaixo do nav*/
+  content: " ";
+  width: 0%;
+  height: 4px;
+  background-color: #f9bc02;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* Estilos das seções */
+section {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Estilos do rodapé */
+footer {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #8701b0;
+  color: #f9bc02;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Estilos da imagem do Instagram */
+.imagem-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.insta {
+  float: right;
+  width: 60px;
+  margin-right: 25px; /* Ajuste o recuo à direita conforme necessário */
+  margin-top: 20px; /* Ajuste o recuo superior conforme necessário */
+}
+
+.texto {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  transform: translate(-50%, -50%); /* Alinhar o texto no centro */
+  color: white;
+  padding: 5px;
+  display: none; /* Ocultar por padrão */
+}
+
+.imagem-container:hover .texto {
+  display: block; /* Tornar visível ao passar o mouse sobre a imagem */
+}
