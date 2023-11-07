@@ -70,7 +70,7 @@ function flipCard(cardElement) {
 
 function showCongratulationsMessage() {
   const messageElement = document.createElement("div");
-  messageElement.innerHTML = "Parabéns, você ganhou! Deseja jogar novamente?";
+  messageElement.innerHTML = "Parabéns, você ganhou! Quer jogar novamente?";
   document.body.appendChild(messageElement);
 
   const playAgainButton = document.createElement("button");
