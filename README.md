@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <body>
     <header>
         <h1>#GamcBite</h1>
@@ -31,9 +25,10 @@
         <ul>
             <li>Amanda Souza</li>
             <li>Cauã de Paula</li>
+             <li>Crystal Leonhardt</li>
             <li>Guilherme Cerabando</li>
             <li>Matheus Gabriel</li>
         </ul>
     </div>
 </body>
-</html>
+
