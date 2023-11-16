@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Arial", sans-serif;
   background-color: #cc07cf44;
   background-image: url(imagens/bg/bg.png);
@@ -26,6 +26,7 @@ header {
 /* Estilos da navegação, parte dos links*/
 #navbar {
   background-color: #cc07cf44;
+
 }
 
 nav {
@@ -70,7 +71,9 @@ nav ul {
 section {
   padding: 2rem;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* Estilos do rodapé */
@@ -110,6 +113,42 @@ footer {
   display: none; /* Ocultar por padrão */
 }
 
+.textSbr {
+  color:aliceblue;
+  text-align: center;
+  padding: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.textSbr a {
+  color:rgb(132, 139, 201)
+}
+
+
 .imagem-container:hover .texto {
   display: block; /* Tornar visível ao passar o mouse sobre a imagem */
+}
+
+/*Tamanho das imagens dos jogos como ícones no inicio*/
+#biteMatch, #biteNumber, #bitePong {
+  width: 370px; 
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+/*Animação nos blocos de img!!!!*/
+.hoverINDEX {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hoverINDEX img {
+    
+    transition: transform 0.3s ease; /*Adiciona uma transição curta */
+}
+
+.hoverINDEX:hover img {
+  transform: scale(1.1); /* Aumenta a escala qnd passar o mouse em cima */
 }
