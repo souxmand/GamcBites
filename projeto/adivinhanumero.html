@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="gamestyle.css" />
-    <meta charset="UTF-8" />
-    <title>Adivinha numero</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>GamcBite</title>
   </head>
-
   <body>
     <header>
-      <img src="imagens/GamcBitelogo.png" id="logo" />
+      <img src="imagens/GamcBitelogoPNG.png" id="logo">
       <p>
         <a
           href="https://www.instagram.com/trabalhamanda"
@@ -22,28 +21,32 @@
           />
         </a>
       </p>
+    </header>
+
+    <section id="inicio">
+      <!-- Conteúdo da seção "Início" aqui -->
       <div id="navbar">
         <nav>
           <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="MiniGames.html">Mini Games</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
+            <li class="inicio"><a href="#inicio">Início</a></li>
+            <li class="sbr"><a href="sobre.html">Sobre</a></li>
           </ul>
         </nav>
       </div>
-    </header>
 
-    <div id="jogo">
-      <img
-        src="imagens/bg/3.png"
-        alt="Bite The Number - Adivinhe o Número"
-        class="nomejogo"
-      />
-      <p>Tente adivinhar o número entre 1 e 1000:</p>
-      <input type="text" id="guess" />
-      <button onclick="guessNumber()">Adivinhar</button>
-      <p id="message"></p>
-    </div>
-    <script src="adivinhanumero.js"></script>
+      <a href="memoria.html" class="hoverINDEX">
+      <img src="imagens/bg/bitematch.png" id="biteMatch" alt="Jogo da Mémoria">
+      </a>
+
+      <a href="adivinhanumero.html" class="hoverINDEX">
+      <img src="imagens/bg/4.png" id="biteNumber" alt="Jogo Adivinha Número"> 
+      </a>
+
+       <a href="pong.html" class="hoverINDEX">
+      <img src="imagens/bg/pong.png" id="bitePong" alt="Jogo Ping-Pong"> 
+      </a>
+
+    </section>
+
   </body>
 </html>
