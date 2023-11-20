@@ -142,6 +142,7 @@ footer {
 .hoverINDEX {
     display: inline-block;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .hoverINDEX img {
@@ -151,4 +152,10 @@ footer {
 
 .hoverINDEX:hover img {
   transform: scale(1.1); /* Aumenta a escala qnd passar o mouse em cima */
+}
+
+p {
+  color: #fff;
+  font-size: 30px;
+  margin: 5px;
 }

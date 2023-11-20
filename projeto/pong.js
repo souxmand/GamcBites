@@ -10,7 +10,7 @@ canvas.height = canvasHeight;
 // Centralize o canvas na tela com base no tamanho da janela
 canvas.style.position = "absolute";
 canvas.style.left = "50%";
-canvas.style.top = "75%";
+canvas.style.top = "80%";
 canvas.style.transform = "translate(-50%, -50%)";
 canvas.style.border = "2px solid black";
 
