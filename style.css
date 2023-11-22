@@ -1,26 +1,39 @@
-
+/* Estilos gerais */
 body {
-  text-align: center;
-  background-color: #8701b0;
+  margin: 0px;
+  font-family: "Arial", sans-serif;
+  background-color: #cc07cf44;
   background-image: url(imagens/bg/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
+/* Estilos do cabeçalho */
 header {
+  height: 125px; /* Ajuste a altura conforme necessário */
   background-color: #8701b0;
   position: fixed;
   width: 100%;
   top: 0;
-  margin: 0;
 }
+
+/* Estilos do logotipo */
+#logo {
+  float: left;
+  width: 300px;
+}
+
+/* Estilos da navegação, parte dos links*/
+#navbar {
+  background-color: #cc07cf44;
+
+}
+
 nav {
   text-align: center;
   margin-top: 50px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 nav a {
   text-decoration: none;
   color: #f9bc02;
@@ -39,11 +52,9 @@ nav a::after {
   bottom: 0;
   transition: 0.5s ease-in-out;
 }
-
 nav a:hover::after {
   width: 100%;
 }
-
 nav ul {
   list-style: none;
   display: flex;
@@ -52,14 +63,14 @@ nav ul {
   padding: 1rem;
   margin: 1rem;
 }
-
+/* Estilos das seções */
 section {
   padding: 2rem;
   text-align: center;
-  margin-top: 100px;
-  /* Adiciona espaço na parte superior para evitar que o conteúdo fique atrás da barra de navegação */
+  margin-top: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-
 /* Estilos do rodapé */
 footer {
   width: 100%;
@@ -72,21 +83,18 @@ footer {
   padding: 1rem;
   text-align: center;
 }
-
 /* Estilos da imagem do Instagram */
 .imagem-container {
   position: fixed;
   top: 0;
   right: 0;
 }
-
 .insta {
   float: right;
   width: 60px;
   margin-right: 25px; /* Ajuste o recuo à direita conforme necessário */
   margin-top: 20px; /* Ajuste o recuo superior conforme necessário */
 }
-
 .texto {
   position: absolute;
   top: 70%;
@@ -96,7 +104,6 @@ footer {
   padding: 5px;
   display: none; /* Ocultar por padrão */
 }
-
 .textSbr {
   color:aliceblue;
   text-align: center;
@@ -104,41 +111,32 @@ footer {
   padding-left: 300px;
   padding-right: 300px;
 }
-
 .textSbr a {
   color:rgb(132, 139, 201)
 }
-
-
 .imagem-container:hover .texto {
   display: block; /* Tornar visível ao passar o mouse sobre a imagem */
 }
-
 /*Tamanho das imagens dos jogos como ícones no inicio*/
 #biteMatch, #biteNumber, #bitePong {
   width: 370px; 
   padding-right: 25px;
   padding-left: 25px;
   padding-top: 50px;
-  margin-top: 40px;
 }
-
 /*Animação nos blocos de img!!!!*/
 .hoverINDEX {
     display: inline-block;
     overflow: hidden;
     margin-top: 20px;
 }
-
 .hoverINDEX img {
     
     transition: transform 0.3s ease; /*Adiciona uma transição curta */
 }
-
 .hoverINDEX:hover img {
   transform: scale(1.1); /* Aumenta a escala qnd passar o mouse em cima */
 }
-
 p {
   color: #fff;
   font-size: 30px;
