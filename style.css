@@ -9,6 +9,20 @@ body {
 }
 
 
+#logo {
+  float: left;
+  width: 300px;
+}
+
+.insta {
+  float: right;
+  width: 60px;
+}
+
+.clear {
+  clear: both;
+}
+
 header {
   background-color: #8701b000;
   position: fixed;
