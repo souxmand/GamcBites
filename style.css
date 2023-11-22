@@ -1,30 +1,15 @@
-/* Estilos gerais */
+
 body {
-  margin: 0px;
-  font-family: "Arial", sans-serif;
-  background-color: #cc07cf44;
+  text-align: center;
+  background-color: #8701b0;
   background-image: url(imagens/bg/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
-#logo {
-  float: left;
-  width: 300px;
-}
-
-.insta {
-  float: right;
-  width: 60px;
-}
-
-.clear {
-  clear: both;
-}
-
 header {
-  background-color: #8701b000;
+  background-color: #8701b0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -68,13 +53,11 @@ nav ul {
   margin: 1rem;
 }
 
-/* Estilos das seções */
 section {
   padding: 2rem;
   text-align: center;
-  margin-top: 75px;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin-top: 100px;
+  /* Adiciona espaço na parte superior para evitar que o conteúdo fique atrás da barra de navegação */
 }
 
 /* Estilos do rodapé */
